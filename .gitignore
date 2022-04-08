@@ -1,0 +1,87 @@
+# Contains list of all the files that git don't need to track
+# If at any point it seems that a file is missing in your copy it most probably was ommited because of gitignore
+# It shouldn't post any problem though.
+
+# If you are going to use any other technology other than what are listed in here,
+# Please check if there is a gitignore file available and add its content at the end of this file.
+# If you know what you are doing... Feel free to edit this file.
+
+# gitignore related to Flask
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+venv/
+.venv/
+env*
+dist/
+build/
+*.egg
+*.egg-info/
+_mailinglist
+.tox/
+.cache/
+.pytest_cache/
+.idea/
+docs/_build/
+.vscode
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
+
+# Emacs specific gitignore. If you are using certain text editors that generate their own redundant files add its
+# gitignore file here as well
+
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
